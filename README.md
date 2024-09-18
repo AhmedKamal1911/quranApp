@@ -1,136 +1,113 @@
-# Project Lyrics
-
-Develop an elegant React.js Music Application. 
-
-Check out the complete project requirements [here](https://docs.google.com/document/d/13PeFwRlPEhMw_HPyrIrInvQuKaVWnpNmcv-y3NA208s/edit?usp=sharing)
-
-# Contributing
-
-When contributing to this repository, please first discuss the change you wish to make via issue.
-Please note we have a [code of conduct](CODE_OF_CONDUCT.md), please follow it in all your interactions with the project.
+<p align="center">
+    <img  src="https://github.com/AhmedKamal1911/quranApp/blob/main/src/assets/logo.png" height="200"/>
+</p>
 
 
-## System Requirements
 
-To get started with development, you need to install few tools
-
-1. git 
-   
-   `git` version 2.13.1 or higher. Download [git](https://git-scm.com/downloads) if you don't have it already.
-
-   To check your version of git, run:
-
-   ```shell
-    git --version
-   ```
-
-2. node 
-   
-   `node` version 16.15.1 or higher. Download [node](https://nodejs.org/en/download/) if you don't have it already.
-
-   To check your version of node, run:
-
-   ```shell
-    node --version
-   ```
-
-3. npm
-  
-   `npm` version 5.6.1 or higher. You will have it after you install node.
-
-   To check your version of npm, run:
-
-   ```shell
-    npm --version
-   ```
-
-## Setup
-
-To set up a development environment, please follow these steps:
-
-1. Clone the repo
-
-   ```shell
-    git clone https://github.com/JavaScript-Mastery-PRO/project1_team4_repository.git
-   ```
-
-2. Change directory to the project directory
-
-    ```shell
-    cd project1_team4_repository
-    ```
-
-3. Install the dependencies
-   
-    ```shell
-     npm install
-    ```
-
-    If you get an error, please check the console for more information.
-
-    If you don't get an error, you are ready to start development.
-
-4. Run the app
-   
-    ```shell
-    npm run dev
-    ```
-
-    Project will be running in the browser.
-
-    Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-## Issues
-
-You've found a bug in the source code, a mistake in the documentation or maybe you'd like a new feature? You can help us by [submitting an issue on GitHub](https://github.com/orgs/JavaScript-Mastery-PRO/projects/8). Before you create an issue, make sure to search the issue archive -- your issue may have already been addressed!
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
+# Hi, I'm Ahmed! 
 
 
-## Pull Request
+##  About Me
 
-There are 2 main work flows when dealing with pull requests:
-
-* Pull Request from a [forked repository](https://help.github.com/articles/fork-a-repo)
-* Pull Request from a branch within a repository
-
-Here we are going to focus on 2. Creating a Topical Branch:
+I’m a passionate front-end developer with a keen eye for detail and a love for creating beautiful, responsive, and user-friendly websites. I thrive in collaborative environments, where I can contribute to innovative projects that make a real impact. With a strong foundation in modern web technologies, I’m constantly exploring new frameworks, tools, and techniques to enhance my skills and deliver exceptional digital experiences. My goal is to build solutions that not only look great but also provide seamless functionality across all devices.
 
 
-1. First, we will need to create a branch from the latest commit on master. Make sure your repository is up to date first using
+# Bayan
 
-   ```bash
-    git pull origin main
-   ```
+This project is a Quran library web application developed using Redux for state management, Tailwind CSS for responsive design, and Axios for seamless API interactions. It offers users easy access to the Quran with features such as efficient data handling, clean UI, and optimized performance.
 
-   *Note:* `git pull` does a `git fetch` followed by a `git merge` to update the local repo with the remote repo. For a more detailed explanation, see [this stackoverflow post](http://stackoverflow.com/questions/292357/whats-the-difference-between-git-pull-and-git-fetch).
+## Tech Stack
 
-2. To create a branch, use `git checkout -b <new-branch-name> [<base-branch-name>]`, where `base-branch-name` is optional and defaults to `main`. 
-   
-   Use a standard convention for branch names. For example, `<your-name>-dev`. It will be easier to track your pull requests if you use this convention.
-   
-   I'm going to create a new branch called `jsm-dev` from the `main` branch and push it to github.
+**Client (Front-End):** ReactJS, Axios, tailwind, Redux
 
-   ```bash
-    git checkout -b jsm-dev main
-    git push origin jsm-dev
-   ```
+Check out more dependencies at: 
 
-3. To create a pull request, you must have changes committed to your new branch.
+https://github.com/AhmedKamal1911/quranApp/blob/main/package.json
 
-4. Go to [Pull Requests](https://github.com/JavaScript-Mastery-PRO/project1_team4_repository/pulls) and click on the `New Pull Request` button.
 
-5. Select the `main` branch as the `base` branch and the `jsm-dev` branch as the `compare` branch.
+## Features
 
-6. Follow the template and fill in the proper information for the pull request.
+-Custom audio player for streaming Quran recitations with full control options.
 
-7. Click on the `Submit` button.
 
-8. You have successfully created a pull request. Now wait for mentor approval. Once approved, you can merge the pull request.
+-Pagination for navigating through multiple Quranic audios efficiently.
 
-#
+
+-State management using Redux for smooth user experience and data consistency.
+
+
+-Login and logout system for user authentication.
+
+
+-Mobile-responsive design using Tailwind CSS for optimal viewing on any device.
+
+
+## Prerequisites
+This project uses Yarn as a package manager
+```bash
+npm install --global yarn
+```
+## Run Locally
+
+Clone the project
+
+```bash
+gh repo clone AhmedKamal1911/quranApp
+```
+
+Go to the project directory
+
+```bash
+cd quran-app
+```
+
+Install dependencies
+
+```bash
+yarn
+```
+
+Start the server
+
+```bash
+yarn dev
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+yarn build
+```
+
+
+## Deployment
+
+To deploy this project run
+
+```bash
+npm run build
+
+```
+## home page
+
+![home](https://github.com/user-attachments/assets/2cf4f672-820c-4eb5-8412-479230e56551)
+
+![mobile](https://github.com/user-attachments/assets/91bd8826-7d39-46ae-aa25-26827d6d9ce9)
+
+
+
+#### Where to find the movies api used?
+
+
+https://quran-endpoint.vercel.app
+
+#### What dependencies were used to develop the project?
+
+Check the full dependencies here: 
+
+https://github.com/AhmedKamal1911/quranApp/blob/main/package.json
+
+
